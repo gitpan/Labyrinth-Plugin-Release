@@ -1,6 +1,6 @@
 {
     "name": "Labyrinth-Plugin-Release",
-    "version": "0.01",
+    "version": "0.02",
     "abstract": "Release plugin for the Labyrinth framework",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -37,6 +37,7 @@
         "runtime" : {
             "requires" : {
               "perl": "5.006",
+              "Clone": "0",
               "Labyrinth": "5.20",
               "Labyrinth::Plugin::Core": "5.15",
               "Labyrinth::Plugin::Articles::Lyrics": "1.00",
@@ -49,7 +50,7 @@
     "provides": {
         "Labyrinth::Plugin::Release": {
             "file": "lib/Labyrinth/Plugin/Release.pm",
-            "version": "0.01"
+            "version": "0.02"
         }
     },
     "no_index": {
