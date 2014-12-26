@@ -5,7 +5,7 @@ use strict;
 
 use vars qw($VERSION);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 =head1 NAME
 
@@ -180,23 +180,43 @@ sub Profiles {
 
 =item * Admin
 
+Manage current list of releases.
+
 =item * Add
+
+Add a release.
 
 =item * Edit
 
+Edit existing release.
+
 =item * Save
+
+Save a release.
 
 =item * SaveFormat
 
+Save release format.
+
 =item * SaveLyric
+
+Attach a lyric associated with this release.
 
 =item * SaveProfile
 
+Attach a profile associated with this release.
+
 =item * Promote
+
+Promote the publish status of a release.
 
 =item * Delete
 
+Delete one or more releases.
+
 =item * TypeSelect
+
+Provide a drop down list of release types.
 
 =back
 
